@@ -38,10 +38,9 @@ class DarazScraper:
     """
     
     BASE_URLS = {
-        'pk': 'https://www.daraz.pk',
+ 
         'np': 'https://www.daraz.com.np',
-        'bd': 'https://www.daraz.com.bd',
-        'lk': 'https://www.daraz.lk',
+        
     }
     
     HEADERS = {
