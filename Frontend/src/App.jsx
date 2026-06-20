@@ -10,6 +10,7 @@ import Showcase from './Components/Showcase.jsx'
 import Performance from './Components/Performance.jsx'
 import ProductGrid from './Components/ProductGrid.jsx'
 import SearchModal from './Components/SearchModal.jsx'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 //import Features from './Components/Features.jsx'
 //import Highlights from './Components/Highlights.jsx'
 //import Footer from './Components/Footer.jsx'
@@ -55,6 +56,7 @@ function App() {
         onClose={() => setIsSearchOpen(false)}
         onSearch={handleSearch}
       />
+      <SpeedInsights />
     </div>
   )
 }
